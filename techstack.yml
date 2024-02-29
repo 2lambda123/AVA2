@@ -1,0 +1,736 @@
+repo_name: 2lambda123/AVA2
+report_id: f480a7eca1653f66437f3c250445db4e
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:14:42+00:00'
+requested_by: LAI-X
+provider: github
+branch: master
+detected_tools_count: 62
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/AVA2
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/AVA2
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/AVA2
+  detection_source: Repo Metadata
+- name: Ant Design
+  description: A set of high-quality React components
+  website_url: https://ant.design
+  version: 4.16.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6112/12101536.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/AVA2
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/.github/workflows/auto-release.yml
+  detection_source: ".github/workflows/auto-release.yml"
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 24.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 3.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/site/package.json
+  detection_source: site/package.json
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/AVA2
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: katex
+  website_url: https://github.com/Khan/KaTeX
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6858/15455.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: qrcode
+  website_url: http://goqr.me/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8580/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/site/package.json
+  detection_source: site/package.json
+- name: semantic-release
+  description: Fully automated version management and package publishing
+  website_url: https://github.com/semantic-release/semantic-release
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10156/12867925.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  version: 13.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: "@commitlint/config-conventional"
+  description: Shareable commitlint config enforcing conventional commits
+  package_url: https://www.npmjs.com/@commitlint/config-conventional
+  version: 13.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: "@semantic-release/changelog"
+  description: Semantic-release plugin to create or update a changelog file
+  package_url: https://www.npmjs.com/@semantic-release/changelog
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16473/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: "@semantic-release/git"
+  description: Semantic-release plugin to commit release assets to the project's git
+    repository
+  package_url: https://www.npmjs.com/@semantic-release/git
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16388/default_3d8bf87f0e09f3da6536330e02ffa89677f8784b.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 4.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava/package.json
+  detection_source: packages/ava/package.json
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 23.3.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.180
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: "@types/styled-components"
+  description: TypeScript definitions for styled-components
+  package_url: https://www.npmjs.com/@types/styled-components
+  version: 5.1.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16494/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 8.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.29.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.29.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: antd
+  description: An enterprise-class UI design language and React components implementation
+  package_url: https://www.npmjs.com/antd
+  version: 4.16.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16201/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/site/package.json
+  detection_source: site/package.json
+- name: csstype
+  description: Strict TypeScript and Flow types for style based on MDN data
+  package_url: https://www.npmjs.com/csstype
+  version: 3.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18333/default_cef8b737c55fccc3604e91ce246aef30fc604c73.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/playground/package.json
+  detection_source: playground/package.json
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 18.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: eslint-import-resolver-typescript
+  description: TypeScript .ts .tsx module resolver for `eslint-plugin-import`
+  package_url: https://www.npmjs.com/eslint-import-resolver-typescript
+  version: 2.4.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.24.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: gh-pages
+  description: Publish to a gh-pages branch on GitHub
+  package_url: https://www.npmjs.com/gh-pages
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15967/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/site/package.json
+  detection_source: site/package.json
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: insert-css
+  description: Insert a string of css into the &lt;head&gt;
+  package_url: https://www.npmjs.com/insert-css
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18134/default_01702efb6e3de4593a8b0cad3946134999a33e03.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/site/package.json
+  detection_source: site/package.json
+- name: jest-extended
+  description: Additional Jest matchers
+  package_url: https://www.npmjs.com/jest-extended
+  version: 0.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17645/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: katex
+  description: Fast math typesetting for the web
+  package_url: https://www.npmjs.com/katex
+  version: 0.16.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18250/default_c6b51515d4a1dde78342d80e969e295cabf381ac.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: mockjs
+  description: 生成随机数据 &amp; 拦截 Ajax 请求
+  package_url: https://www.npmjs.com/mockjs
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16769/default_7db4a32a5e03bf4595c23f25ef5a0d1b2fd53479.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/site/package.json
+  detection_source: site/package.json
+  vulnerabilities:
+  - name: mockjs vulnerable to Prototype Pollution via the Util.extend function
+    cve_id: CVE-2023-26158
+    cve_url: https://github.com/advisories/GHSA-mh8j-9jvh-gjf6
+    detected_date: Dec 18
+    severity: high
+    first_patched: 
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/site/package.json
+  detection_source: site/package.json
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: numeral
+  description: Format and manipulate numbers
+  package_url: https://www.npmjs.com/numeral
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16703/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava/package.json
+  detection_source: packages/ava/package.json
+- name: qrcode
+  description: QRCode / 2d Barcode api with both server side and client side support
+    using canvas
+  package_url: https://www.npmjs.com/qrcode
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17638/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/site/package.json
+  detection_source: site/package.json
+- name: react-color
+  description: A Collection of Color Pickers from Sketch
+  package_url: https://www.npmjs.com/react-color
+  version: 2.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16955/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/site/package.json
+  detection_source: site/package.json
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
+- name: react-i18next
+  description: Internationalization for react done right
+  package_url: https://www.npmjs.com/react-i18next
+  version: 11.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17777/default_65e03f67ad735337587d736d5fbc87b538eccdf7.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/site/package.json
+  detection_source: site/package.json
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: semantic-release
+  description: Automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release
+  version: 19.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15935/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+  vulnerabilities:
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in semantic-release
+    cve_id: CVE-2022-31051
+    cve_url: https://github.com/advisories/GHSA-x2pg-mjhr-2m5x
+    detected_date: Jun 10
+    severity: moderate
+    first_patched: 19.0.3
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 24.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.3.1
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/package.json
+  detection_source: package.json
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/AVA2/blob/master/packages/ava-react/package.json
+  detection_source: packages/ava-react/package.json
